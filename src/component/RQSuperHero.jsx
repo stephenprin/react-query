@@ -7,10 +7,18 @@ const fetchSuperHeros = () => {
 }
 
 const RQSuperHero = () => {
-   const {isLoading, data}= useQuery("super-hero", fetchSuperHeros)
-   
+    const { isLoading, data, isError, error, isFetching } = useQuery("super-hero",
+        fetchSuperHeros, {
+            
+            refetchOnMount: true,
+            refetchOnWindowFocus: true,
+        })
+   console.log(isLoading, isFetching)
     if (isLoading) {
         return <div>Loading...</div>
+    }
+    if (isError) { 
+        return <div>{ error.message}</div>
     }
   return (
       <>
