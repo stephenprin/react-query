@@ -5,6 +5,9 @@ import './App.css';
 import SuperHero from './component/SuperHero';
 import RQSuperHero from './component/RQSuperHero';
 import Home from './component/Home';
+import RQSuper from './component/single/RQSuper';
+import ParallelQueries from './component/ParallelQueries';
+import DependentQuery from './component/DependentQuery';
 
 function App() {
   const queryClient = new QueryClient();
@@ -28,7 +31,10 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/super-heroes" element={<SuperHero />} />
-          <Route path="/rq-super-heroes" element={<RQSuperHero />} />
+            <Route path="/rq-super-heroes" element={<RQSuperHero />} />
+            <Route path="/rq-super-hero/:heroId" element={<RQSuper />} />
+            <Route path="/rq-parallel" element={<ParallelQueries />} />
+            <Route path="/rq-dependent" element={<DependentQuery email="st58@gmail.com" />} />
         </Routes>
       </div>
       </Router>

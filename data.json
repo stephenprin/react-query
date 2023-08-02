@@ -15,5 +15,36 @@
       "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
     }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Vano nioo"
+   
+    },
+    {
+      "id": 2,
+      "name": "Jmaes authiurtle"
+  
+    },
+    {
+      "id": 3,
+      "name": "Princess Diana"
+     
+    }
+  ],
+
+  "users": [
+    {
+      "id": "super23@gmail.com",
+      "email": "super23@gmail.com"
+    }
+  ],
+  "channels":[
+      {
+          "id":"new23@gmail.com",
+            "course":["react","vue"]
+      }
   ]
+
 }
