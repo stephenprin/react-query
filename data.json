@@ -45,6 +45,32 @@
           "id":"new23@gmail.com",
             "course":["react","vue"]
       }
+  ],
+  "colors":[
+    {
+      "id":"1",
+      "label":"green"
+    },
+    {
+      "id":"2",
+      "label":"red"
+    },
+    {
+      "id":"3",
+      "label":"blue"
+    },
+    {
+      "id":"4",
+      "label":"green"
+    },
+    {
+      "id":"5",
+      "label":"yellow"
+    },
+    {
+      "id":"6",
+      "label":"Violet"
+    }
   ]
 
 }
