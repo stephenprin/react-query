@@ -14,63 +14,129 @@
       "id": 3,
       "name": "Wonder Woman",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "Prnce",
+      "alterEgo": "Newo",
+      "id": 4
+    },
+    {
+      "name": "james",
+      "alterEgo": "micheal",
+      "id": 5
+    },
+    {
+      "name": "muna",
+      "alterEgo": "",
+      "id": 6
+    },
+    {
+      "name": "muna",
+      "alterEgo": "micg",
+      "id": 7
+    },
+    {
+      "name": "mich",
+      "alterEgo": "jmaes",
+      "id": 8
+    },
+    {
+      "name": "mich",
+      "alterEgo": "jmaes",
+      "id": 9
+    },
+    {
+      "name": "michnamo",
+      "alterEgo": "jmaes",
+      "id": 10
+    },
+    {
+      "name": "arth",
+      "alterEgo": "jmaes",
+      "id": 11
+    },
+    {
+      "name": "arthjj",
+      "alterEgo": "jmaes",
+      "id": 12
+    },
+    {
+      "name": "hhi",
+      "alterEgo": "jj",
+      "id": 13
+    },
+    {
+      "name": "dsd",
+      "alterEgo": "dd",
+      "id": 14
+    },
+    {
+      "name": "dsd",
+      "alterEgo": "dd",
+      "id": 15
+    },
+    {
+      "id": 16
+    },
+    {
+      "name": "ho",
+      "alterEgo": "fo",
+      "id": 17
     }
   ],
   "friends": [
     {
       "id": 1,
       "name": "Vano nioo"
-   
     },
     {
       "id": 2,
       "name": "Jmaes authiurtle"
-  
     },
     {
       "id": 3,
       "name": "Princess Diana"
-     
     }
   ],
-
   "users": [
     {
       "id": "super23@gmail.com",
       "email": "super23@gmail.com"
     }
   ],
-  "channels":[
-      {
-          "id":"new23@gmail.com",
-            "course":["react","vue"]
-      }
+  "channels": [
+    {
+      "id": "new23@gmail.com",
+      "course": [
+        "react",
+        "vue"
+      ]
+    }
   ],
-  "colors":[
+  "colors": [
     {
-      "id":"1",
-      "label":"green"
+      "id": "1",
+      "label": "green"
     },
     {
-      "id":"2",
-      "label":"red"
+      "id": "2",
+      "label": "red"
     },
     {
-      "id":"3",
-      "label":"blue"
+      "id": "3",
+      "label": "blue"
     },
     {
-      "id":"4",
-      "label":"green"
+      "id": "4",
+      "label": "green"
     },
     {
-      "id":"5",
-      "label":"yellow"
+      "id": "5",
+      "label": "yellow"
     },
     {
-      "id":"6",
-      "label":"Violet"
+      "id": "6",
+      "label": "Violet"
     }
   ]
-
 }

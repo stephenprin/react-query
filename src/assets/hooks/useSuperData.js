@@ -1,8 +1,9 @@
 import { useQuery , useQueryClient} from "react-query"
-import axios from "axios"
+import {request} from '../../utils/axios-utils'
 
 const fetchHeroId = (id) => {
-    return axios.get(`http://localhost:4000/superheroes/${id}`)
+    // return axios.get(`http://localhost:4000/superheroes/${id}`)
+    return request({url:`/superheroes/${id}`})
 }
 
 export const useSuperData = (heroId) => {
